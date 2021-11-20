@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-attachment: fixed;
+    background-color: #d8d3d3;
+}
+.section{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 130px auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.subtitle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.label{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.chec{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.chec__title{
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    border:  2px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
